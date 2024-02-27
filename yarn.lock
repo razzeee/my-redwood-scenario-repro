@@ -2372,6 +2372,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@faker-js/faker@npm:^8.0.0":
+  version: 8.4.1
+  resolution: "@faker-js/faker@npm:8.4.1"
+  checksum: 10c0/4f2aecddcfdc2cc8b50b2d15d1e37302a7c7a5bbd184ae910a9d271bc11248533ca74dcdd4a9ccbe20410553e7af0f6a4d334c5b955635e09a32ddf4a64942d4
+  languageName: node
+  linkType: hard
+
 "@fastify/accept-negotiator@npm:^1.0.0":
   version: 1.1.0
   resolution: "@fastify/accept-negotiator@npm:1.1.0"
@@ -8127,9 +8134,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001587":
-  version: 1.0.30001589
-  resolution: "caniuse-lite@npm:1.0.30001589"
-  checksum: 10c0/20debfb949413f603011bc7dacaf050010778bc4f8632c86fafd1bd0c43180c95ae7c31f6c82348f6309e5e221934e327c3607a216e3f09640284acf78cd6d4d
+  version: 1.0.30001591
+  resolution: "caniuse-lite@npm:1.0.30001591"
+  checksum: 10c0/21937d341c3d75994504db21340f65573a1e847a8ab33ee4964ed493994d6552864c494ba144485459abd9c711c75c0708bc9fa19f2bff525bff75ffb0a42c3b
   languageName: node
   linkType: hard
 
@@ -8735,14 +8742,14 @@ __metadata:
   linkType: hard
 
 "compress-commons@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "compress-commons@npm:5.0.1"
+  version: 5.0.3
+  resolution: "compress-commons@npm:5.0.3"
   dependencies:
     crc-32: "npm:^1.2.0"
     crc32-stream: "npm:^5.0.0"
     normalize-path: "npm:^3.0.0"
     readable-stream: "npm:^3.6.0"
-  checksum: 10c0/1c604ac753b4ec643a807f3db545bf497d1e9c6f81e9132280c98d972b02bbeba087e7fb2d53f3043f9643a64a6140e9e39b94329040695d404b83a0c7f38fa2
+  checksum: 10c0/ca7fe7ec4feb2854876df928192fc9b2bece15690e171d771a23a8e54a97ef78c057791d0fadc5c6c6703831687facd1f2428bb0dff3187caa2d631d92be69fc
   languageName: node
   linkType: hard
 
@@ -10608,14 +10615,14 @@ __metadata:
   linkType: hard
 
 "eslint-module-utils@npm:^2.8.0":
-  version: 2.8.0
-  resolution: "eslint-module-utils@npm:2.8.0"
+  version: 2.8.1
+  resolution: "eslint-module-utils@npm:2.8.1"
   dependencies:
     debug: "npm:^3.2.7"
   peerDependenciesMeta:
     eslint:
       optional: true
-  checksum: 10c0/c7a8d1a58d76ec8217a8fea49271ec8132d1b9390965a75f6a4ecbc9e5983d742195b46d2e4378231d2186801439fe1aa5700714b0bfd4eb17aac6e1b65309df
+  checksum: 10c0/1aeeb97bf4b688d28de136ee57c824480c37691b40fa825c711a4caf85954e94b99c06ac639d7f1f6c1d69223bd21bcb991155b3e589488e958d5b83dfd0f882
   languageName: node
   linkType: hard
 
@@ -14959,11 +14966,11 @@ __metadata:
   linkType: hard
 
 "memfs@npm:^3.4.3":
-  version: 3.5.3
-  resolution: "memfs@npm:3.5.3"
+  version: 3.6.0
+  resolution: "memfs@npm:3.6.0"
   dependencies:
     fs-monkey: "npm:^1.0.4"
-  checksum: 10c0/038fc81bce17ea92dde15aaa68fa0fdaf4960c721ce3ffc7c2cb87a259333f5159784ea48b3b72bf9e054254d9d0d0d5209d0fdc3d07d08653a09933b168fbd7
+  checksum: 10c0/af567f9038bbb5bbacf100b35d5839e90a89f882d191d8a1c7002faeb224c6cfcebd0e97c0150e9af8be95ec7b5b75a52af56fcd109d0bc18807c1f4e004f053
   languageName: node
   linkType: hard
 
@@ -18027,6 +18034,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
+    "@faker-js/faker": "npm:^8.0.0"
     "@redwoodjs/core": "npm:7.0.3"
     "@redwoodjs/project-config": "npm:7.0.3"
   languageName: unknown
@@ -21291,12 +21299,12 @@ __metadata:
   linkType: hard
 
 "zip-stream@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "zip-stream@npm:5.0.1"
+  version: 5.0.2
+  resolution: "zip-stream@npm:5.0.2"
   dependencies:
     archiver-utils: "npm:^4.0.1"
     compress-commons: "npm:^5.0.1"
     readable-stream: "npm:^3.6.0"
-  checksum: 10c0/18b4ecf28824bd165709de5056d53cf611f07e0b7578508fa94c497f17164722dc19a0739ea8b2c1a296de7d3f70f7ad558e7a3a4929240fb2730afc5fd60679
+  checksum: 10c0/cb5c4b57771a03429188ae73f90744f6996aa98c885852970de1c8bed3351c8a931cce0cf74cf37b9fa3727a07119236def871ec6d05c9becbc80746f52dd795
   languageName: node
   linkType: hard

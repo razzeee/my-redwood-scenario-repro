@@ -22,3 +22,28 @@ model UserExample {
   email String  @unique
   name  String?
 }
+
+model Seat {
+  id                 Int              @id @default(autoincrement())
+  insertedAt         DateTime         @default(now())
+  updatedAt          DateTime         @updatedAt
+  neededWorkingHours Decimal
+  startingFrom       DateTime
+  endingAt           DateTime?
+  positionProjectId  Int
+  seatAssignment     SeatAssignment[]
+}
+
+model SeatAssignment {
+  id                   Int       @id @default(autoincrement())
+  assignedWorkingHours Decimal?
+  insertedAt           DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+  deletedAt            DateTime?
+  assignedAt           DateTime?
+  assignedUserId       Int?
+  assignedApplicantId  Int?
+  seatId               Int
+  seat                 Seat      @relation(fields: [seatId], references: [id], onDelete: Cascade)
+  description          String?
+}
